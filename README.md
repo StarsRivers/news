@@ -10,39 +10,10 @@
 
 - 详细经过见博文：[归档 | 前后端都基于 vercel 的每日早报项目](https://icodeq.com/2022/5fe2010403bb/)
 
-#### 官网
-
-- 官网地址：[https://news.icodeq.com](https://news.icodeq.com/)
-- 源码地址：https://github.com/zkeq/news
-
-#### 完整版 [支持查看原文的版本] [`dev`]
-
-- 演示地址：[https://full.news.icodeq.com](https://full.news.icodeq.com/)
-- 源码地址：https://github.com/zkeq/news/tree/dev
-
-#### `Vercel` 一键部署（推荐）
-简洁版（我更喜欢这个）：
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fzkeq%2Fnews)
-
-完整版（有查看原文功能，但部分不大完善）：
-
-> 且与本项目定位不怎么相符, 但是似乎有相应的需求，见 [#03](https://github.com/zkeq/news/issues/3)
-
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fzkeq%2Fnews%2Ftree%2Fdev)
 
 
-#### `Replit` 部署（不推荐）
+[源项目](https://github.com/zkeq/news/blob/main/api/requirements.txt)
 
-- 见分支 https://github.com/zkeq/news/tree/replit
-
-#### 服务器部署（不推荐）
-
-1. 安装 `Python 3` 
-2. 安装 [依赖库](https://github.com/zkeq/news/blob/main/api/requirements.txt)
-3. 将 `api/index.py`  中的 `from api.crawler` 改为 `from crawler`
-4. 运行 ` python api/index.py`
-5. 将 `index.js`中的 api 域名改为部署得到的域名即可
 
 #### API 说明
 
