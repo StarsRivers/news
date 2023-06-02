@@ -8,10 +8,10 @@ show_only = true;
 setTimeout(() => {
     Notiflix.Notify.warning('正在请求最新数据...');
     first_xhr();
-}, 1000);
+}, 500);
 
 function report_bug () {
-    window.open('https://github.com/zkeq/news/issues/new?assignees=zkeq&labels=bug%2Capi&template=main.yaml&title=%5B%E6%8E%A5%E5%8F%A3%E5%A4%B1%E6%95%88%5D%3A+');
+    window.open('https://github.com/StarsRivers/news/issues/');
 }
 
 function handleError (e) { 
